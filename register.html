@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - My Blog Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-class">
+            <img src="logo.png" width="100px" height="33px" alt="">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+                <li><a href="login.html">Üye Girişi</a></li>
+                <li><a href="register.html">Kayıt Olun</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Kayıt Olun</h1>
+            <form id="registerForm">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm_password">Şifre Tekrar:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                
+                <button type="submit">Kayıt Olun</button>
+            </form>
+        </section>
+    </main>
+    <footer class="about-footer">
+        <p>&copy; 2024 Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
